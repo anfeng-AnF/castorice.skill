@@ -1,0 +1,43 @@
+{
+  "slug": "castorice",
+  "name": "遐蝶",
+  "game": "崩坏：星穹铁道",
+  "built_at": "2026-04-21T11:29:00+08:00",
+  "source_version": "3.3",
+  "last_updated": "2026-04-21T14:12:00+08:00",
+  "sources": ["BWIKI", "官方对话数据 (interact.md)"],
+  "supplement_source": "F:\\数据集\\遐蝶\\interact.md - 官方游戏完整剧情，含3.3版本身世揭秘（玻吕茜亚前世记忆、黄金世试炼、塞纳托斯双生关系）",
+  "backstory_revealed": true,
+  "kit": "character-skill",
+  "dimensions": ["profile", "personality", "interaction", "memory", "relations"],
+  "evidence_summary": {
+    "verbatim": 78,
+    "artifact": 41,
+    "impression": 6,
+    "total": 125,
+    "evidence_ratio": 0.95
+  },
+  "new_evidence_added": {
+    "profile": "前世身份（玻吕茜亚）、斯缇科西亚覆灭、黄金世试炼、双生姐姐与塞纳托斯的关系、等价交换原则来源",
+    "personality": "前世创伤（姐姐牺牲）、对命运的质问、深层动机（不让悲剧重演）",
+    "interaction": "前世记忆台词（格奈乌斯教诲、姐姐遗言、卡吕普索对话）、今生关键对话（救开拓者、与那刻夏合作）",
+    "memory": "完整身世线、前世今生对照、黄金世试炼真相、塞纳托斯双生关系",
+    "relations": "前世：姐姐/格奈乌斯/卡吕普索；今生：阿格莱雅/白厄/开拓者/那刻夏"
+  },
+  "quality_score": {
+    "completeness": 1.0,
+    "evidence_ratio": 0.96,
+    "conflict_count": 0,
+    "conflict_score": 1.0,
+    "test_pass_rate": null,
+    "overall": 0.99
+  },
+  "test_results": {
+    "note": "未执行扮演测试，评分可能偏高",
+    "passed": null,
+    "failed": null,
+    "scenarios": []
+  },
+  "rating": "优秀",
+  "supplement_suggestions": []
+}
