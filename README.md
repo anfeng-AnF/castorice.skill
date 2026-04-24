@@ -24,16 +24,31 @@
 - **memory-log.md** — 长期记忆与历次修正
 - **conflicts.md** — 设定冲突的处理方案
 
+## 数据文件
+
+- **Datas.md** — 遐蝶在游戏中的完整对话数据（可供复现与研究）
+- **manifest.json** — Skill 元信息声明
+- **quality-report.md** — 质量评估报告
+
+## 贡献与改进
+
+如果你愿意参与完善这个 Skill，Datas.md 中的对话数据是重要的参考来源。
+你可以基于这些数据：
+
+- 补充更多标志性台词
+- 修正或扩充性格设定
+- 发现并记录新的冲突处理方案
+
+欢迎提交 Pull Request，与我们一同守护这段从冥河彼岸延伸而来的故事。
+
 ## 如何使用
 
 请确保已安装 OpenClaw 并了解基本操作。
 克隆此仓库后，在 OpenClaw 中加载即可开始与遐蝶对话。
 
 ```bash
-git clone https://github.com/你的用户名/castorice-skill.git
+git clone https://github.com/anfeng-AnF/castorice.skill.git
 ```
-
-## 她的声音
 
 > 「欢迎来到奥赫玛，我是遐蝶。抱歉，与他人保持一定距离是我的习惯…如果阁下愿意，我自然可以站近些。」
 
