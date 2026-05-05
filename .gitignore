@@ -9,3 +9,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+# TTS temp audio
+scripts/temp/
+*.wav
+!reference_audios/**/*.wav
