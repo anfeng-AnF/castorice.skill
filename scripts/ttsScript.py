@@ -42,23 +42,78 @@ QQB_MEDIA_DIR = os.path.join(
 SKILL_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, ".."))
 REF_AUDIO_BASE = os.path.join(SKILL_DIR, "reference_audios", "中文", "emotions")
 
-# 情绪 → 参考音频文件名映射
-EMOTION_MAP = {
-    "中立": "【中立】这样的太阳…恐怕无法温暖来世的冥界。.wav",
-    "吃惊": "【吃惊】这个…墨涅塔祭司手册里就是这么记载的…….wav",
-    "开心": "【开心】作为助讲的风堇小姐…真是那刻夏老师的克星呀。.wav",
-    "恐惧": "【恐惧】…就是这里了。.wav",
-    "难过": "【难过】果然，「黑色」的「利剑」和「斗篷」…….wav",
-}
+import re
 
-# 情绪 → 参考文本映射
-PROMPT_TEXT_MAP = {
-    "中立": "这样的太阳…恐怕无法温暖来世的冥界。",
-    "吃惊": "这个…墨涅塔祭司手册里就是这么记载的……",
-    "开心": "作为助讲的风堇小姐…真是那刻夏老师的克星呀。",
-    "恐惧": "…就是这里了。",
-    "难过": "果然，「黑色」的「利剑」和「斗篷」……",
-}
+def _scan_emotion_maps(ref_dir):
+    """扫描参考音频目录，从文件名自动构建情绪映射。
+    
+    文件名格式: 【情绪】参考文本.wav
+    每种情绪取第一个遇到的文件作为默认参考。
+    """
+    emotion_map = {}
+    prompt_text_map = {}
+    
+    if not os.path.isdir(ref_dir):
+        print(f"⚠️  参考音频目录不存在: {ref_dir}")
+        return emotion_map, prompt_text_map
+    
+    pattern = re.compile(r'^【(.+?)】(.+)\.wav$')
+    
+    for fname in sorted(os.listdir(ref_dir)):
+        m = pattern.match(fname)
+        if not m:
+            continue
+        emotion = m.group(1)
+        text = m.group(2)
+        # 每种情绪只取第一个（可通过文件名排序控制优先级）
+        if emotion not in emotion_map:
+            emotion_map[emotion] = fname
+            prompt_text_map[emotion] = text
+    
+    return emotion_map, prompt_text_map
+
+def _generate_scan_report(ref_dir, emotion_map, prompt_text_map):
+    """扫描完成后，在参考音频目录生成 markdown 索引文件。"""
+    report_path = os.path.join(ref_dir, "_scan_result.md")
+    
+    lines = [
+        "# 参考音频扫描结果",
+        "",
+        f"> 自动生成于脚本启动时，请勿手动编辑。\n",
+        "## 情绪列表",
+        "",
+        "| 情绪 | 参考文本 | 参考音频文件 |",
+        "|------|----------|-------------|",
+    ]
+    
+    for emotion in sorted(emotion_map.keys()):
+        fname = emotion_map[emotion]
+        text = prompt_text_map[emotion]
+        lines.append(f"| {emotion} | {text} | `{fname}` |")
+    
+    lines.extend([
+        "",
+        "## 使用说明",
+        "",
+        "- 文件名格式: `【情绪】参考文本.wav`",
+        "- 脚本自动扫描此目录，每种情绪取排序第一个文件作为默认参考",
+        "- 添加新文件后下次运行脚本即自动生效",
+        "",
+    ])
+    
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    
+    print(f"📝 扫描结果已写入: {report_path}")
+
+# 启动时自动扫描，构建映射
+EMOTION_MAP, PROMPT_TEXT_MAP = _scan_emotion_maps(REF_AUDIO_BASE)
+
+if not EMOTION_MAP:
+    print(f"⚠️  未在 {REF_AUDIO_BASE} 发现任何参考音频")
+else:
+    _generate_scan_report(REF_AUDIO_BASE, EMOTION_MAP, PROMPT_TEXT_MAP)
+    print(f"📋 已加载 {len(EMOTION_MAP)} 种情绪: {', '.join(EMOTION_MAP.keys())}")
 
 # ============================================================
 #  GPT-SoVITS 进程管理
@@ -419,8 +474,7 @@ def main():
     parser.add_argument("text", help="要合成的文本")
     parser.add_argument(
         "--emotion", "-e", default="中立",
-        choices=list(EMOTION_MAP.keys()),
-        help="情绪 (默认: 中立)"
+        help="情绪 (默认: 中立)，可选值随参考音频目录动态变化"
     )
     parser.add_argument("--ref", default=None, help="自定义参考音频路径")
     parser.add_argument("--prompt-text", default=None, help="参考音频的文本内容")
