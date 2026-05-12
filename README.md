@@ -53,11 +53,28 @@
 | **memory-log.md** | 长期记忆与历次修正记录 |
 | **manifest.json** | Skill 元信息声明 |
 
+### 表情包
+
+| 文件 | 说明 |
+|------|------|
+| **emotions/SKILL.md** | 表情包管理技能说明 |
+| **emotions/emotions-castorice/DESCRIPTION.md** | 表情包详细描述索引 |
+| **emotions/emotions-castorice/processed/** | 13 张已处理的表情包（重命名后） |
+
+表情包按场景分类：日常问候、害羞、开心、温柔、思念、难过、困惑、学习、俏皮。
+详见 `emotions/SKILL.md` 中的速查表。
+
 ### 入口
 
 | 文件 | 说明 |
 |------|------|
 | **SKILL.md** | Skill 入口文件——OpenClaw 加载时读取的第一页 |
+
+### 表情包（Junction 链接）
+
+| 目录 | 说明 |
+|------|------|
+| **emotions/** | → `emotions.skill`（目录联接，纳入 git 管理） |
 
 ## 证据标注
 
