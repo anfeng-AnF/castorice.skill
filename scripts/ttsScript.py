@@ -44,6 +44,15 @@ REF_AUDIO_BASE = os.path.join(SKILL_DIR, "reference_audios", "中文", "emotions
 
 import re
 
+def _sanitize_tts_text(text):
+    """去除被小括号包裹的内容（中英文括号均处理），以及多余空白"""
+    # 先删英文括号内容，再删中文括号内容
+    text = re.sub(r'\([^)]*\)', '', text)
+    text = re.sub(r'（[^）]*）', '', text)
+    # 合并连续空白为单个空格，去首尾
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
 def _scan_emotion_maps(ref_dir):
     """扫描参考音频目录，从文件名自动构建情绪映射。
     
@@ -391,6 +400,9 @@ def run_tts(text, emotion="中立", ref_audio=None, prompt_text=None,
     """
     os.makedirs(TEMP_DIR, exist_ok=True)
     os.makedirs(QQB_MEDIA_DIR, exist_ok=True)
+
+    # --- 预处理文本 ---
+    text = _sanitize_tts_text(text)
 
     # --- 确保服务运行 ---
     if not ensure_server_running(host=host, port=port, mode=mode,
