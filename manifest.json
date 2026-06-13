@@ -3,37 +3,42 @@
   "name": "遐蝶",
   "name_en": "Castorice",
   "game": "崩坏：星穹铁道",
-  "built_at": "2026-05-04T23:20:00+08:00",
-  "source_version": "3.2",
-  "last_updated": "2026-05-05T00:52:00+08:00",
-  "sources": [
-    "BWIKI",
-    "百度百科",
-    "Fandom"
-  ],
   "kit": "character-skill",
-  "dimensions": [
-    "profile",
-    "personality",
-    "interaction",
-    "memory",
-    "relations"
+  "rebuild": "codex-v1",
+  "built_at": "2026-06-14T00:00:00+08:00",
+  "last_updated": "2026-06-14T02:17:03+08:00",
+  "source_version": "3.0-3.7 main story, 4.2 supplemental",
+  "default_timeline": "later complete state after the 3.2 Netherworld turning point, with 3.7/4.2 postscript available",
+  "sources": [
+    "sources/extracted/story_pages",
+    "sources/extracted/profile_pages/067_资料_大世界对话.md",
+    "sources/extracted/supplemental_pages",
+    "sources/extracted/plot_mismatch_review.md",
+    "sources/extracted/coverage_summary.md"
   ],
-  "evidence_summary": {
-    "verbatim": 176,
-    "artifact": 76,
-    "impression": 12,
-    "total": 264,
-    "evidence_ratio": 0.955
+  "dimensions": [
+    "Castorice.md",
+    "worldview.md",
+    "canon_memory.md",
+    "profile.md",
+    "personality.md",
+    "interaction.md",
+    "memory.md",
+    "relations.md",
+    "conflicts.md",
+    "maintenance.md",
+    "source_index.md"
+  ],
+  "evidence_policy": {
+    "primary": "new parsed BWiki story/profile markdown under sources/extracted",
+    "excluded_by_default": [
+      "old MiMo output",
+      "deleted legacy role files",
+      "mixed-source legacy conclusions"
+    ],
+    "legacy_reference_only": [
+      "sources/wiki.md"
+    ]
   },
-  "quality_score": {
-    "completeness": 1.0,
-    "evidence_ratio": 0.955,
-    "conflict_count": 3,
-    "conflict_score": 0.9,
-    "test_pass_rate": null,
-    "overall": 0.967
-  },
-  "rating": "优秀（可直接使用）",
-  "supplement_suggestions": []
+  "notes": "First evidence-driven roleplay rebuild. Quality test pass is not recorded yet."
 }
