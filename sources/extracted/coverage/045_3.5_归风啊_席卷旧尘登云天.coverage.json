@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/045_归风啊_席卷旧尘登云天.html",
+  "markdown_path": "sources/extracted/story_pages/045_3.5_归风啊_席卷旧尘登云天.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 224,
+    "source_dialogue_items": 185,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 4,
+    "source_plot_options": 11,
+    "source_plot_contents": 11,
+    "markdown_dialogue_lines": 185,
+    "markdown_choice_groups": 4,
+    "markdown_option_lines": 11,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

@@ -1,0 +1,42 @@
+{
+  "html_path": "sources/static_pages/047_大海啊_埋葬暗酒色的梦.html",
+  "markdown_path": "sources/extracted/story_pages/047_3.5_大海啊_埋葬暗酒色的梦.md",
+  "status": "warn",
+  "counts": {
+    "source_items": 249,
+    "source_dialogue_items": 180,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 6,
+    "source_plot_options": 12,
+    "source_plot_contents": 10,
+    "markdown_dialogue_lines": 176,
+    "markdown_choice_groups": 6,
+    "markdown_option_lines": 12,
+    "missing_groups": 0,
+    "extra_groups": 1,
+    "plot_mismatches": 2
+  },
+  "plot_mismatches": [
+    {
+      "index": 5,
+      "path": "剧情内容 / plotFrame[5]",
+      "options": 2,
+      "contents": 1
+    },
+    {
+      "index": 6,
+      "path": "剧情内容 / plotFrame[6]",
+      "options": 2,
+      "contents": 1
+    }
+  ],
+  "missing_items": [],
+  "extra_items": [
+    {
+      "kind": "markdown_text",
+      "text": "回复：进入后续共同内容",
+      "observed_count": 2,
+      "source_count": 0
+    }
+  ]
+}

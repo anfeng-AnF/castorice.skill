@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/054_大地啊_承载万物的苦难.html",
+  "markdown_path": "sources/extracted/story_pages/054_3.6_大地啊_承载万物的苦难.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 482,
+    "source_dialogue_items": 437,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 1,
+    "source_plot_options": 2,
+    "source_plot_contents": 2,
+    "markdown_dialogue_lines": 436,
+    "markdown_choice_groups": 1,
+    "markdown_option_lines": 2,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

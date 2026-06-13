@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/039_英雄啊_兑现那染血的冀望.html",
+  "markdown_path": "sources/extracted/story_pages/039_3.4_英雄啊_兑现那染血的冀望.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 247,
+    "source_dialogue_items": 186,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 15,
+    "source_plot_options": 33,
+    "source_plot_contents": 33,
+    "markdown_dialogue_lines": 155,
+    "markdown_choice_groups": 15,
+    "markdown_option_lines": 33,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

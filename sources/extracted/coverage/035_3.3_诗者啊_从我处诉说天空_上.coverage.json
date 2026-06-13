@@ -1,0 +1,29 @@
+{
+  "html_path": "sources/static_pages/035_诗者啊_从我处诉说天空_上.html",
+  "markdown_path": "sources/extracted/story_pages/035_3.3_诗者啊_从我处诉说天空_上.md",
+  "status": "warn",
+  "counts": {
+    "source_items": 758,
+    "source_dialogue_items": 605,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 29,
+    "source_plot_options": 68,
+    "source_plot_contents": 65,
+    "markdown_dialogue_lines": 499,
+    "markdown_choice_groups": 29,
+    "markdown_option_lines": 68,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 1
+  },
+  "plot_mismatches": [
+    {
+      "index": 2,
+      "path": "剧情内容 / plotFrame[2]",
+      "options": 4,
+      "contents": 1
+    }
+  ],
+  "missing_items": [],
+  "extra_items": []
+}

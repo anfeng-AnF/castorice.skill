@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/040_英雄啊_粉碎那悲哀的造像.html",
+  "markdown_path": "sources/extracted/story_pages/040_3.4_英雄啊_粉碎那悲哀的造像.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 119,
+    "source_dialogue_items": 83,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 0,
+    "source_plot_options": 0,
+    "source_plot_contents": 0,
+    "markdown_dialogue_lines": 83,
+    "markdown_choice_groups": 0,
+    "markdown_option_lines": 0,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

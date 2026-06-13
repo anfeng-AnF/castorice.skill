@@ -1,0 +1,60 @@
+{
+  "html_path": "sources/static_pages/042_流年啊_渡我漂游千百载.html",
+  "markdown_path": "sources/extracted/story_pages/042_3.5_流年啊_渡我漂游千百载.md",
+  "status": "warn",
+  "counts": {
+    "source_items": 246,
+    "source_dialogue_items": 165,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 21,
+    "source_plot_options": 58,
+    "source_plot_contents": 48,
+    "markdown_dialogue_lines": 120,
+    "markdown_choice_groups": 21,
+    "markdown_option_lines": 58,
+    "missing_groups": 0,
+    "extra_groups": 2,
+    "plot_mismatches": 4
+  },
+  "plot_mismatches": [
+    {
+      "index": 9,
+      "path": "剧情内容 / plotFrame[9]",
+      "options": 3,
+      "contents": 1
+    },
+    {
+      "index": 11,
+      "path": "剧情内容 / plotFrame[11]",
+      "options": 4,
+      "contents": 1
+    },
+    {
+      "index": 15,
+      "path": "剧情内容 / plotFrame[15]",
+      "options": 4,
+      "contents": 2
+    },
+    {
+      "index": 18,
+      "path": "剧情内容 / plotFrame[18]",
+      "options": 4,
+      "contents": 1
+    }
+  ],
+  "missing_items": [],
+  "extra_items": [
+    {
+      "kind": "markdown_text",
+      "text": "回复：进入后续共同内容",
+      "observed_count": 11,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_text",
+      "text": "前三个是都是同样的直接后续对话",
+      "observed_count": 1,
+      "source_count": 0
+    }
+  ]
+}

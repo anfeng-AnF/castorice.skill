@@ -1,0 +1,36 @@
+{
+  "html_path": "sources/static_pages/055_大墓啊_深藏轮回的秘密.html",
+  "markdown_path": "sources/extracted/story_pages/055_3.6_大墓啊_深藏轮回的秘密.md",
+  "status": "warn",
+  "counts": {
+    "source_items": 705,
+    "source_dialogue_items": 537,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 35,
+    "source_plot_options": 85,
+    "source_plot_contents": 82,
+    "markdown_dialogue_lines": 484,
+    "markdown_choice_groups": 35,
+    "markdown_option_lines": 85,
+    "missing_groups": 0,
+    "extra_groups": 1,
+    "plot_mismatches": 1
+  },
+  "plot_mismatches": [
+    {
+      "index": 25,
+      "path": "剧情内容 / plotFrame[25]",
+      "options": 4,
+      "contents": 1
+    }
+  ],
+  "missing_items": [],
+  "extra_items": [
+    {
+      "kind": "markdown_text",
+      "text": "回复：进入后续共同内容",
+      "observed_count": 3,
+      "source_count": 0
+    }
+  ]
+}

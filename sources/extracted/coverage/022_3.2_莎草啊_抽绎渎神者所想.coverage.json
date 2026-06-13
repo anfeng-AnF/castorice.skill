@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/022_莎草啊_抽绎渎神者所想.html",
+  "markdown_path": "sources/extracted/story_pages/022_3.2_莎草啊_抽绎渎神者所想.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 330,
+    "source_dialogue_items": 232,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 5,
+    "source_plot_options": 17,
+    "source_plot_contents": 17,
+    "markdown_dialogue_lines": 200,
+    "markdown_choice_groups": 5,
+    "markdown_option_lines": 17,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

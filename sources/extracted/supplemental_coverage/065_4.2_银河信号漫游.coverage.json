@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/065_银河信号漫游.html",
+  "markdown_path": "sources/extracted/supplemental_pages/065_4.2_银河信号漫游.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 1101,
+    "source_dialogue_items": 690,
+    "source_message_dialogue": 49,
+    "source_plot_frames": 99,
+    "source_plot_options": 198,
+    "source_plot_contents": 198,
+    "markdown_dialogue_lines": 494,
+    "markdown_choice_groups": 99,
+    "markdown_option_lines": 198,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

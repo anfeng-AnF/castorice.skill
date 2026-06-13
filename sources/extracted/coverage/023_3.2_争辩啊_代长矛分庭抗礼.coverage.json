@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/023_争辩啊_代长矛分庭抗礼.html",
+  "markdown_path": "sources/extracted/story_pages/023_3.2_争辩啊_代长矛分庭抗礼.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 134,
+    "source_dialogue_items": 105,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 6,
+    "source_plot_options": 13,
+    "source_plot_contents": 13,
+    "markdown_dialogue_lines": 95,
+    "markdown_choice_groups": 6,
+    "markdown_option_lines": 13,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/027_公民啊_倾听那汹涌潮声.html",
+  "markdown_path": "sources/extracted/story_pages/027_3.2_公民啊_倾听那汹涌潮声.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 265,
+    "source_dialogue_items": 233,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 2,
+    "source_plot_options": 3,
+    "source_plot_contents": 3,
+    "markdown_dialogue_lines": 231,
+    "markdown_choice_groups": 2,
+    "markdown_option_lines": 3,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

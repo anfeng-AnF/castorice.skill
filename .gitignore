@@ -14,3 +14,19 @@ Thumbs.db
 scripts/temp/
 *.wav
 !reference_audios/**/*.wav
+
+# Python/runtime cache
+__pycache__/
+*.pyc
+
+# Story fetch cache/test output
+sources/.story-cache/
+sources/_fetched_story_test.md
+sources/_parser_*
+sources/static_pages/
+sources/extracted/coverage_report_*
+sources/extracted/story_preview_*
+
+# Superseded source notes
+sources/Datas.md
+sources/MemoryAfter3.2.md

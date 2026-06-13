@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/061_英雄啊_归以凡身向侵晨.html",
+  "markdown_path": "sources/extracted/story_pages/061_3.7_英雄啊_归以凡身向侵晨.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 814,
+    "source_dialogue_items": 668,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 27,
+    "source_plot_options": 58,
+    "source_plot_contents": 58,
+    "markdown_dialogue_lines": 636,
+    "markdown_choice_groups": 27,
+    "markdown_option_lines": 58,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

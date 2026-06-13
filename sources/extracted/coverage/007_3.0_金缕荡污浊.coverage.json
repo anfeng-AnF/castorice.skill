@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/007_金缕荡污浊.html",
+  "markdown_path": "sources/extracted/story_pages/007_3.0_金缕荡污浊.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 175,
+    "source_dialogue_items": 151,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 2,
+    "source_plot_options": 3,
+    "source_plot_contents": 3,
+    "markdown_dialogue_lines": 151,
+    "markdown_choice_groups": 2,
+    "markdown_option_lines": 3,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

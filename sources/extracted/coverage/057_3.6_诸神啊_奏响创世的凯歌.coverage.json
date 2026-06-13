@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/057_诸神啊_奏响创世的凯歌.html",
+  "markdown_path": "sources/extracted/story_pages/057_3.6_诸神啊_奏响创世的凯歌.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 267,
+    "source_dialogue_items": 231,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 7,
+    "source_plot_options": 20,
+    "source_plot_contents": 20,
+    "markdown_dialogue_lines": 223,
+    "markdown_choice_groups": 7,
+    "markdown_option_lines": 20,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/003_晚星啊_莫让我长夜独卧.html",
+  "markdown_path": "sources/extracted/story_pages/003_3.0_晚星啊_莫让我长夜独卧.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 515,
+    "source_dialogue_items": 346,
+    "source_message_dialogue": 9,
+    "source_plot_frames": 46,
+    "source_plot_options": 94,
+    "source_plot_contents": 94,
+    "markdown_dialogue_lines": 231,
+    "markdown_choice_groups": 46,
+    "markdown_option_lines": 94,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

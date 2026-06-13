@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/013_谧林啊_寤思者缘何失语.html",
+  "markdown_path": "sources/extracted/story_pages/013_3.1_谧林啊_寤思者缘何失语.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 1014,
+    "source_dialogue_items": 770,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 59,
+    "source_plot_options": 136,
+    "source_plot_contents": 136,
+    "markdown_dialogue_lines": 646,
+    "markdown_choice_groups": 59,
+    "markdown_option_lines": 136,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/066_真言狮口.html",
+  "markdown_path": "sources/extracted/supplemental_pages/066_3.0_真言狮口.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 494,
+    "source_dialogue_items": 215,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 54,
+    "source_plot_options": 137,
+    "source_plot_contents": 137,
+    "markdown_dialogue_lines": 48,
+    "markdown_choice_groups": 54,
+    "markdown_option_lines": 137,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

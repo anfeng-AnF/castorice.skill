@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/033_金丝啊_请喻救世者谶语.html",
+  "markdown_path": "sources/extracted/story_pages/033_3.3_金丝啊_请喻救世者谶语.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 447,
+    "source_dialogue_items": 397,
+    "source_message_dialogue": 2,
+    "source_plot_frames": 8,
+    "source_plot_options": 17,
+    "source_plot_contents": 17,
+    "markdown_dialogue_lines": 385,
+    "markdown_choice_groups": 8,
+    "markdown_option_lines": 17,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}

@@ -1,0 +1,108 @@
+{
+  "html_path": "sources/static_pages/043_初日啊_逐退群星与残月.html",
+  "markdown_path": "sources/extracted/story_pages/043_3.5_初日啊_逐退群星与残月.md",
+  "status": "warn",
+  "counts": {
+    "source_items": 1030,
+    "source_dialogue_items": 805,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 53,
+    "source_plot_options": 134,
+    "source_plot_contents": 131,
+    "markdown_dialogue_lines": 694,
+    "markdown_choice_groups": 53,
+    "markdown_option_lines": 134,
+    "missing_groups": 0,
+    "extra_groups": 13,
+    "plot_mismatches": 1
+  },
+  "plot_mismatches": [
+    {
+      "index": 16,
+      "path": "剧情内容 / plotFrame[16]",
+      "options": 5,
+      "contents": 2
+    }
+  ],
+  "missing_items": [],
+  "extra_items": [
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "我是奥赫玛的骑士统领，逐火军的大将，也是凯撒的近侍——",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "除却这些刻着繁复名号的鳞片，我只是凯撒身侧的一尾游鱼，一柄剑旗。",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_text",
+      "text": "（重新选择）",
+      "observed_count": 3,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "如你所见，她是奥赫玛的女皇，黄金战争的终结者，黄金裔的领袖。",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "其余更多，我身为臣子不便妄议。",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "在这里的黄金裔，皆是逐火军中的佼佼者——",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "「曳石爵」阿波罗尼与「吟风爵」维吉妮娅，他们是逐火军的参谋与史官，一人为凯撒出谋献计，一人将她的无上功绩书作诗篇。",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "「断锋爵」拉比努斯与「冬霖爵」塞涅卡，他们是逐火军中强大的战士，用剑刃与风暴扫清逐火的前路。",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "「命运爵」，知晓神谕的圣女，现在城中只有名为缇宝的这一位。为统合天下神谕，凯撒曾将她们掳作质子…不过，她们如今是奥赫玛重要的先知。",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_dialogue_text",
+      "text": "「金织爵」阿格莱雅…呵，她不喜欢被人背后议论，你还是亲自去认识她吧。",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_text",
+      "text": "条件：完成所有其他四名黄金裔的对话",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_text",
+      "text": "条件：尚未完成所有其他四名黄金裔的对话",
+      "observed_count": 1,
+      "source_count": 0
+    },
+    {
+      "kind": "markdown_text",
+      "text": "（重新对话）",
+      "observed_count": 1,
+      "source_count": 0
+    }
+  ]
+}

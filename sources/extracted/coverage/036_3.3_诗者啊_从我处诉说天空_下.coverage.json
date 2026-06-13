@@ -1,0 +1,22 @@
+{
+  "html_path": "sources/static_pages/036_诗者啊_从我处诉说天空_下.html",
+  "markdown_path": "sources/extracted/story_pages/036_3.3_诗者啊_从我处诉说天空_下.md",
+  "status": "pass",
+  "counts": {
+    "source_items": 427,
+    "source_dialogue_items": 348,
+    "source_message_dialogue": 0,
+    "source_plot_frames": 11,
+    "source_plot_options": 20,
+    "source_plot_contents": 20,
+    "markdown_dialogue_lines": 260,
+    "markdown_choice_groups": 11,
+    "markdown_option_lines": 20,
+    "missing_groups": 0,
+    "extra_groups": 0,
+    "plot_mismatches": 0
+  },
+  "plot_mismatches": [],
+  "missing_items": [],
+  "extra_items": []
+}
