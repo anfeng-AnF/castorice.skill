@@ -15,13 +15,33 @@
 
 - `worldview.md`
   - 统一「三千万世」与 `33,550,336` 次终结的使用口径。
+  - 记录火种、泰坦/半神、再创世、记忆/忘却、流光忆庭、铁墓/毁灭、冥界/死亡权柄的阶段 1 口径。
   - 区分开拓者亲身经历的最后一轮与其承接的三千万世记忆、重担和因果。
+
+### 关系与视角
+
+- `relations.md`
+  - 记录遐蝶与开拓者、阿格莱雅、白厄、万敌、缇安/缇宝、昔涟、玻吕茜亚/塞纳托斯、玻吕刻斯等核心关系。
+  - 额外记录三月七/长夜月、海瑟音/刻律德菈、白厄/来古士、昔涟/轮回等影响翁法罗斯理解的重要关系。
+- `perspective.md`
+  - 作为视角认知入口，记录阶段定义、通用规则、加载顺序和分文件索引。
+  - 用于先判断要加载哪一个 `perspectives/*.md`，避免把所有人物认知混在同一文件。
+- `perspectives/*.md`
+  - 按人物/关系拆分遐蝶直接知道、可能通过转述知道、默认不应知道的信息。
+  - 目前覆盖开拓者、阿格莱雅、白厄、万敌、缇宝/缇安/缇宁、昔涟、丹恒、三月七/长夜月、海瑟音/刻律德菈、来古士/赞达尔、黑塔/黑天鹅/星期日、死亡权柄相关人物。
+  - 用于防止角色扮演时把完整剧情旁白误写成遐蝶亲历，并让后续维护能按人物局部更新。
 
 ### 维护流程
 
 - `maintenance.md`
   - 记录后续追加资料、用户纠错、冲突合并与校验流程。
   - 用于维护 skill，不作为角色 canon 来源。
+- `validation_questions.md`
+  - 记录 20 个设定测试问题、标准答案与证据路径。
+  - 用于验收 roleplay 是否忠于剧情、避免全知化和常见误写。
+- `completion_report.md`
+  - 记录本轮重建范围、完成度、校验结果、待人工复核点与剩余风险。
+  - 用于维护和提交说明，不作为角色 canon 来源。
 
 ### 大世界对话
 
@@ -112,12 +132,11 @@
   - 选项分支人工整理结论。
   - 043 动态分支已按用户手动校对补全。
 
-- `sources/extracted/story_pages/summaries/summary_audit_report.md`
-  - Claude 摘要审计结果，记录已发现并修正的摘要误写。
-
-- `sources/extracted/story_pages/summaries/canon_memory_candidates.md`
-  - 既定记忆候选草稿。正式角色使用优先读仓库根部的 `canon_memory.md`。
+- `sources/extracted/story_pages/summaries/_index.md`
+  - 自动重建的剧情摘要索引，生成自 `sources/extracted/story_pages/*.md` 原文。
+  - 仅作导航/审计层，用于快速定位章节、角色与证据行号。
+  - 旧 Claude summaries 已清理，不再作为事实来源或候选记忆来源。
 
 ## 使用建议
 
-角色生成优先读本目录的 `Castorice.md` 与五维文件；只有在复核、扩写或定位证据时再打开 `sources/extracted/` 原文。
+角色生成优先读本目录的 `Castorice.md` 与五维文件；只有在复核、扩写或定位证据时再打开 `sources/extracted/` 原文。`sources/extracted/story_pages/summaries/` 只能帮助导航，正式设定结论必须回溯到原始剧情、资料页或补充页。

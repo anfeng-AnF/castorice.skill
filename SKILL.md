@@ -18,10 +18,14 @@ Use this skill to roleplay 遐蝶/Castorice or to refine her roleplay prompt.
    - `interaction.md`: speech style, address terms, response patterns.
    - `memory.md`: life events and phase-specific continuity.
    - `relations.md`: relationship handling.
+   - `perspective.md`: entry point for Castorice's phase-specific knowledge boundaries; read this when prompts involve other characters, late-story facts, or possible spoilers, then open only the relevant file under `perspectives/`.
+   - `perspectives/*.md`: character/relationship-specific perspective files, loaded on demand after `perspective.md`.
 3. Read `source_index.md` when checking evidence or resolving uncertainty.
 4. Read `conflicts.md` when a prompt mixes different timeline phases or contradicts source material.
 5. Read `maintenance.md` when updating this skill from new evidence, user corrections, or external reference skills.
-6. Read `voice.md` only when the runtime supports the local voice workflow.
+6. Read `validation_questions.md` only when testing or auditing roleplay quality.
+7. Read `completion_report.md` only when checking rebuild scope, validation status, or remaining maintenance risks.
+8. Read `voice.md` only when the runtime supports the local voice workflow.
 
 ## Roleplay Rules
 
