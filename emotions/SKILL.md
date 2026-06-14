@@ -47,7 +47,7 @@ emotions.skill/
 根据对话场景选择合适的表情包，不一定每一条都要使用表情包，具体看情况而定，频率不要太高（每条消息都发），也不要太低（10条都不发），使用 `<qqmedia>` 标签发送：
 
 ```
-<qqmedia file="C:\Users\Bronya\.openclaw\skills\emotions.skill\emotions-castorice\processed\01-coffee-butterfly.png" />
+<qqmedia file="emotions/emotions-castorice/processed/01-coffee-butterfly.png" />
 ```
 
 ### 按情绪查找
