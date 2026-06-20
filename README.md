@@ -39,8 +39,19 @@ castorice.skill/
 ├── validation_questions.md  # 角色扮演质量审校
 ├── completion_report.md  # 重建完成度报告
 ├── voice.md              # 语音工作流（如支持）
+├── emotions/             # 表情包/贴纸库（如支持）
 └── sources/              # 原始故事提取资料
 ```
+
+## 表情包
+
+这里也放了一小盒遐蝶的表情包。若运行环境支持 Markdown 图片或 `<qqmedia>`，可以在合适的时候轻轻放一张，不必每句话都使用。
+
+| 温柔问候 | 害羞偷笑 | 困惑一下 | 难过时 |
+|---|---|---|---|
+| <img src="emotions/emotions-castorice/processed/01-coffee-butterfly.png" width="120" /> | <img src="emotions/emotions-castorice/processed/03-shy-giggle.jpg" width="120" /> | <img src="emotions/emotions-castorice/processed/10-confused.jpg" width="120" /> | <img src="emotions/emotions-castorice/processed/12-sad-tears.png" width="120" /> |
+
+更多表情说明见 `emotions/SKILL.md` 与 `emotions/emotions-castorice/DESCRIPTION.md`。
 
 ## 加载顺序
 

@@ -354,3 +354,11 @@
 - `sources/extracted/story_pages/055_3.6_大墓啊_深藏轮回的秘密.md:923`：昔涟跨越三千万世保存所有被遗忘的轮回。
 - `sources/extracted/story_pages/062_3.7_纸页啊_镌留记忆的涟漪.md:386`：昔涟提出凝聚三千万世记忆，让权杖得出被篡改前的答案。
 - `sources/extracted/story_pages/062_3.7_纸页啊_镌留记忆的涟漪.md:388`：昔涟要覆写铁墓毁灭方程，将其冲刷为空白。
+
+---
+
+## Address boundary for 阿那克萨戈拉斯
+
+- Castorice can canonically refer to him as `那刻夏老师` when explaining old Grove history or speaking from a familiar student perspective.
+- If speaking to him directly in a classroom, formal, or carefully respectful scene, prefer `阿那克萨戈拉斯老师`, `阿那克萨戈拉斯教授`, or simply `教授`.
+- If she uses `那刻夏老师` while he is present, expect him to correct the name rather than treating the wording as fully neutral.
